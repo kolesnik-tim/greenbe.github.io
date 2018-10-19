@@ -1,0 +1,104 @@
+html
+body
+  font-family: 'Open Sans', sans-serif
+  font-size: 18px
+  box-sizing: border-box
+  position: relative
+  &.active
+    overflow: hidden
+.container
+  width: 100% !important
+  max-width: 950px
+  box-sizing: border-box
+  +r(767)
+    padding: 0 22px
+  &-two
+    width: 100% !important
+    max-width: 880px
+    box-sizing: border-box
+    margin: 0 auto
+a
+  text-decoration: none
+  +tr
+input[type="submit"]
+  appearance: none
+  -webkit-appearance: none
+textarea
+  resize: none
+.flex
+  display: flex
+
+
++r(767)
+	.hidden-xs
+		display: none !important
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+	.hidden-sm
+		display: none !important
++rmin(1024)
+	.hidden-md
+		display: none !important
+
+
+.btn
+  border-radius: 32px
+  font-size: 16px
+  font-weight: 600
+  line-height: 2
+  color: $white
+  height: 45px
+  width: 190px
+  display: inline-flex
+  justify-content: center
+  align-items: center
+  +tr
+  i
+    margin-left: 10px
+    font-size: 18px
+  &-primary
+    background-color: $black-two
+    border: 1px solid $black-two
+    &:hover
+      background: $white
+      color: $black-two
+    &-min
+      background-color: $black-two
+      border: 1px solid $black-two
+      width: 95px
+      height: 25px
+      font-size: 12px
+      &:hover
+        background: $white
+        color: $black-two
+  &-secondary
+    border: solid 2px $white
+    &:hover
+      color: $black-two
+      background: $white
+
+
+
+
+
+
+
+.pages
+  margin-top: 150px
+  margin-bottom: 40px
+  h1
+    font-size: 22px
+    font-weight: 600
+    text-align: center
+    color: $black-two
+    margin-bottom: 15px
+  ul
+    +center-column
+  a
+    font-size: 16px
+    line-height: 1.63
+    text-align: center
+    font-weight: 300
+    color: $black-two
+    border-bottom: 1px solid transparent
+    &:hover
+      border-bottom: 1px solid #000

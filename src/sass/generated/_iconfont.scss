@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('eot'),
+    url('../fonts/iconfont.woff2') format('woff2'),
+    url('../fonts/iconfont.woff') format('woff'),
+    url('../fonts/iconfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$icon-apple: "\EA01";
+$icon-gp: "\EA02";
+$icon-people: "\EA03";
+$icon-pin: "\EA04";
+$icon-play: "\EA05";
+$icon-tel: "\EA06";
+
+
+%icon {
+  font-family: "iconfont";
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: auto;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+  @extend %icon;
+  display: inline-block;
+}
+
+.icon-apple:before { content: $icon-apple; }
+.icon-gp:before { content: $icon-gp; }
+.icon-people:before { content: $icon-people; }
+.icon-pin:before { content: $icon-pin; }
+.icon-play:before { content: $icon-play; }
+.icon-tel:before { content: $icon-tel; }

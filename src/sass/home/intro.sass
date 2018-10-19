@@ -1,0 +1,63 @@
+.intro
+  background-image: url('../img/home/intro-bg.jpg')
+  +cover
+  height: 680px
+  padding-top: 150px
+  position: relative
+  +r(767)
+    height: 720px
+  h1
+    font-size: 40px
+    font-weight: bold
+    text-align: center
+    color: $white
+    margin-bottom: 15px
+    padding: 0 30px
+    +r(767)
+      padding: 0
+      font-size: 28px
+  p
+    font-size: 16px
+    line-height: 1.63
+    text-align: center
+    color: $white
+    font-weight: normal
+    margin-bottom: 20px
+    padding: 0 40px
+    +r(767)
+      padding: 0
+    a
+      color: $white
+      font-weight: bold
+  .btn
+    +centera(x)
+  &__img
+    position: relative
+    width: 100%
+    +center
+    img
+      +r(767)
+        width: 200px !important
+  #scene
+    height: 500px
+  #scene1
+    z-index: 9
+    position: absolute
+    top: 60px
+    right: 180px
+    width: 250px
+    +r(767)
+      left: 25px
+      position: relative
+      top: 0px
+      right: auto
+  #scene2
+    position: absolute
+    top: 30px
+    right: -10px
+    width: 250px
+    +r(767)
+      left: -20px
+      position: relative
+      top: -30px
+      right: auto

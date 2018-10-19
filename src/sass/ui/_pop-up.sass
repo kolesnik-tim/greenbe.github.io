@@ -1,0 +1,94 @@
+.blocker
+  z-index: 999 !important
+.close-modal 
+  z-index: 99999
+.pop-up
+  max-width: 90% !important
+  height: 80%
+  padding: 0 !important
+  box-shadow: none !important
+  background: none !important
+  &-close
+    width: 30px
+    height: 30px
+    position: absolute
+    right: 20px
+    top: 20px
+    span
+      &:before, &:after
+        content: ''
+        width: 30px
+        height: 2px
+        background: $black
+        position: absolute
+        top: 13px
+      &:before
+        left: 0
+        transform: rotate(45deg)
+      &:after
+        right: 0
+        transform: rotate(-45deg)
+  iframe
+    width: 100%
+    height: 100%
+
+.wistia_click_to_play
+  height: 90% !important
+.wistia_mousedown.wistia_mouseover
+  height: 90% !important
+#wistia-dp5pnao5k2-1_popover, #wistia-dp5pnao5k2-1_popover_popover_close_button
+  transform: translate(0px, -100px) !important
+
+
+
+.menu
+  width: 100%
+  height: 100%
+  background: $white
+  display: none
+  position: fixed
+  z-index: 20
+  top: 0
+  left: 0
+  padding: 60px 0 0
+  .container
+    height: 100%
+  .btn
+    background: $white
+    color: $black-two
+    position: relative
+    left: 50%
+    transform: translate(-50%)
+    display: block
+    text-align: center
+    padding-top: 4px
+    margin-bottom: 80px
+  &__content
+    overflow-y: scroll
+    height: 100%
+    padding: 80px 0 0
+  &__block
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    height: 100%
+  ul
+    li
+      margin-bottom: 60px
+    a
+      font-size: 17px
+      font-weight: 600
+      letter-spacing: -0.4px
+      color: $black-two
+      display: block
+      &.active
+        color: #33ccff
+  .none
+    display: none
+    li
+      margin-bottom: 0
+    a
+      font-size: 16px
+      font-weight: normal
+      color: $greyish-brown
+      margin-top: 30px

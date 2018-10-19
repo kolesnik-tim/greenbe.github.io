@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg"><symbol id="icon-apple" viewBox="0 0 30 30">
+    <title>
+        Rectangle 1 + Imported Layers
+    </title>
+    <g fill-rule="evenodd">
+        <path d="M7.148.714A6.43 6.43 0 0 0 .714 7.148v15.704a6.43 6.43 0 0 0 6.434 6.434h15.704a6.43 6.43 0 0 0 6.434-6.434V7.148A6.43 6.43 0 0 0 22.852.714H7.148z" stroke-width="1.429"/>
+        <path d="M18.413 10.35c1.946 0 3.19 1.882 3.19 1.882s-1.898 1.03-1.898 3.266c0 2.655 2.384 3.427 2.384 3.427s-1.882 4.466-3.995 4.466c-1.188 0-1.267-.684-2.846-.684-1.372 0-1.834.684-2.879.684-1.993 0-4.569-4.353-4.569-7.893 0-3.676 2.608-5.149 4.242-5.149 1.436 0 2.034.845 3.19.845.973 0 1.738-.845 3.181-.845zM18.08 6.6c.286 1.802-1.348 4.031-3.302 3.959C14.49 8.264 16.596 6.72 18.08 6.6z"/>
+    </g>
+</symbol><symbol id="icon-gp" viewBox="0 0 30 30">
+    <title>
+        Rectangle 1 + google play
+    </title>
+    <g fill-rule="evenodd">
+        <path d="M7.148.714A6.43 6.43 0 0 0 .714 7.148v15.704a6.43 6.43 0 0 0 6.434 6.434h15.704a6.43 6.43 0 0 0 6.434-6.434V7.148A6.43 6.43 0 0 0 22.852.714H7.148z" stroke-width="1.429"/>
+        <path d="M9.514 21.735c-.232-.063-.384-.297-.384-.659V9.128c0-.335.128-.561.331-.643l5.787 6.658-5.734 6.592zm.796-.253l6.966-4.006-1.697-1.952-5.269 5.958zm7.014-8.725l-6.869-3.95 5.134 5.944 1.735-1.994zm.466.268l2.69 1.547c.51.293.515.766 0 1.061l-2.758 1.587-1.8-2.084 1.868-2.111z"/>
+    </g>
+</symbol><symbol id="icon-people" viewBox="0 0 37 26">
+    <title>
+        User icon
+    </title>
+    <g fill-rule="nonzero">
+        <g transform="translate(15 4)">
+            <path d="M7 13h8a7 7 0 0 1 7 7v2H0v-2a7 7 0 0 1 7-7z"/>
+            <circle cx="11.5" cy="5.5" r="5.5"/>
+        </g>
+        <g>
+            <path d="M7 13h8a7 7 0 0 1 7 7v2H0v-2a7 7 0 0 1 7-7z"/>
+            <circle cx="11.5" cy="5.5" r="5.5"/>
+        </g>
+    </g>
+</symbol><symbol id="icon-pin" viewBox="0 0 21 25">
+    <title>
+        Location icon
+    </title>
+    <path d="M10.5 25C3.5 19.242 0 14.422 0 10.541 0 4.719 4.701 0 10.5 0S21 4.72 21 10.541c0 3.881-3.5 8.7-10.5 14.459zm-.057-12.903a3.22 3.22 0 0 0 3.213-3.226 3.22 3.22 0 0 0-3.213-3.226A3.22 3.22 0 0 0 7.23 8.871a3.22 3.22 0 0 0 3.213 3.226z" fill-rule="nonzero"/>
+</symbol><symbol id="icon-play" viewBox="0 0 14 14">
+    <title>
+        Group 4
+    </title>
+    <g transform="translate(1 1)" fill-rule="nonzero">
+        <path d="M9 6.5L4 10V3z"/>
+        <circle cx="6" cy="6" r="6"/>
+    </g>
+</symbol><symbol id="icon-tel" viewBox="0 0 25 28">
+    <title>
+        Device icon
+    </title>
+    <g fill-rule="nonzero">
+        <g transform="translate(0 3)">
+            <rect width="15" height="25" rx="2"/>
+            <path d="M2 3h11v19H2z"/>
+        </g>
+        <g transform="translate(10)">
+            <rect width="15" height="25" rx="2"/>
+            <path d="M2 3h11v19H2z"/>
+        </g>
+    </g>
+</symbol></svg>

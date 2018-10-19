@@ -1,0 +1,212 @@
+.feature
+  margin-top: 135px
+  h3
+    font-size: 22px
+    font-weight: 600
+    color: $black-two
+    margin-bottom: 20px
+  p, li
+    font-size: 16px
+    font-weight: 300
+    line-height: 1.63
+    color: $black-two
+  ul
+    list-style-type: disc
+    padding-left: 20px
+  &__title
+    padding-bottom: 100px
+    h1 
+      font-size: 29px
+      font-weight: 600
+      text-align: center
+      color: $black-two
+      margin-bottom: 20px
+    p
+      font-size: 16px
+      font-weight: 300
+      line-height: 1.63
+      text-align: center
+      color: $black-two
+      margin-bottom: 25px
+  &__app
+    padding-bottom: 50px
+    +r(767)
+      border-bottom: solid 1px $white-four
+      padding-bottom: 80px
+    &__img
+      display: flex
+      margin-left: -50px
+      +r(767)
+        margin-left: 0
+      img
+        position: relative
+        transform: scale(1.2)
+        +r(767)
+          height: 300px !important
+          transform: scale(1)
+      #feature1
+        top: -70px
+        left: -50px
+        height: 450px
+        +r(767)
+          left: 0
+          top: -100px
+      #feature2
+        left: -20px
+        top: -10px
+        height: 450px
+        +r(767)
+          left: 0px
+          top: -60px
+    p
+      margin-bottom: 25px
+    &__download
+      margin-top: 30px
+      display: flex
+      &__icon
+        display: flex
+        align-items: center
+        i
+          color: $black-two
+          font-size: 30px
+          margin: 0 3px
+      &__text
+        padding-bottom: 5px
+        padding-left: 15px
+        b, span
+          display: block
+          font-size: 12px
+          color: $black-two
+        span
+          font-weight: 300
+  &__text-1
+    img
+      left: 30px
+      +r(767)
+        left: 0
+  &__text-2
+    img
+      left: -60px
+      +r(767)
+        left: 0
+  &__text
+    padding: 50px 0
+    +r(767)
+      padding: 80px 0
+      border-bottom: solid 1px $white-four
+    p
+      margin-bottom: 30px
+    &__img
+      img
+        position: relative
+        transform: scale(1.15)
+        top: -40px
+        width: 510px
+        +r(767)
+          width: 100%
+          top: -70px
+          transform: scale(1)
+    &__btn
+      width: 100%
+      margin-top: 60px
+      +center-y
+      img
+        margin-right: 40px
+  &__administrator
+    padding: 65px 0 90px
+    background-color: $white-three
+    margin-top: 130px
+    +r(767)
+      padding: 70px 0
+    p
+      margin-bottom: 60px
+    &__img
+      margin-bottom: 60px
+      img
+        transform: scale(1.2)
+        top: -50px
+        position: relative
+        width: 750px
+        +r(767)
+          width: 100%
+          top: -50px
+          position: relative
+          transform: scale(1)
+    p
+      padding: 0px 0 20px
+  &__workplaces
+    padding: 100px 0
+    +r(767)
+      padding: 60px 0 0
+    &__title
+      h3
+        margin-bottom: 90px
+        text-align: center
+        +r(767)
+          margin-bottom: 60px
+    .home-solutions__block
+      h3
+        margin-bottom: 10px
+
+
+
+
+.img-left
+  margin-left: -50px
+  +r(767)
+    margin-left: 0
+.img-right
+  position: relative
+  right: -30px
+  +r(767)
+    right: 0
+.government
+  .feature__app__img
+    #feature3, #feature4
+      height: 450px
+    img
+      +r(767)
+        height: 400px !important
+      &:first-child
+        top: -30px !important
+        z-index: 9
+        +r(767)
+          top: -50px !important
+      &:last-child
+        top: -70px !important
+        left: -60px !important
+        +r(767)
+          top: -90px !important
+          left: -90px !important
+  .feature__text-1
+    img
+      left: -60px
+      +r(767)
+        left: 0
+  .feature__text-2
+    img
+      left: 30px
+      +r(767)
+        left: 0
+  .feature__app--parallax
+    padding: 80px 0
+    .feature__app__img
+      position: relative
+      right: -60px
+      +r(767)
+        right: 0
+      img
+        &:first-child
+          +r(767)
+            height: 300px !important
+            top: 0px
+        &:last-child
+          +r(767)
+            height: 300px !important
+            top: 0
+  .feature__app__download__text
+    padding-left: 3px
+    padding-top: 10px
+  .feature__app__download__icon
+    i
+      font-size: 20px !important
